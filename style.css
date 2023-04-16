@@ -23,7 +23,7 @@ p {
 }
 
 .accent {
-    color: #00CFFF;
+    color: #0FF;
 }
 
 .accent-bgr {
@@ -223,6 +223,8 @@ p {
     margin-top: 100px;
     background-image: url("images/svg/bg-feature.svg");
     padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .features-description {
@@ -319,6 +321,11 @@ p {
     position: relative;
     left: 50px;
     opacity: 50%;
+}
+
+h1 {
+    /* text-shadow: 2px 2px 0 #bbb; */
+    text-shadow: 2px 2px 0 rgb(123, 191, 255);
 }
 
 
