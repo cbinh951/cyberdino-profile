@@ -56,7 +56,7 @@ p {
 
 /* Custom header */
 .navbar {
-    padding: .1rem 1rem!important;
+    padding: .1rem 1rem !important;
 }
 
 /* Banner css here */
@@ -159,11 +159,11 @@ p {
 
 /* Services css here */
 .cyber-dinor-services {
-    padding-bottom: 100px;
+    padding-bottom: 10%;
 }
 
 .list-services {
-    margin-top: 110px;
+    margin-top: 10%;
     width: 50%;
 
     height: 700px;
@@ -299,7 +299,7 @@ p {
     z-index: -1;
 
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 35%;
 }
 
@@ -322,7 +322,7 @@ p {
 
 .pat-creative {
     color: #FFE49D;
-    top: 67%;
+    top: 65%;
     left: 62%;
     opacity: 80%;
 }
@@ -337,13 +337,13 @@ p {
 
 .cyber-dino-banner .cyber-big #cb-deco-big {
     position: relative;
-    top: 50px;
+    top: 80px;
     /* left: 10%; */
     /* mix-blend-mode:color-dodge; */
     mix-blend-mode: screen;
 }
 
-.cyber-dino-banner .cyber-big #cb-deco-big img{
+.cyber-dino-banner .cyber-big #cb-deco-big img {
     width: 100%;
     height: auto;
 }
@@ -420,8 +420,7 @@ h1 {
     .cyber-dino-banner {
         position: relative;
         width: 100%;
-        height: 620px;
-
+        height: 670px;
     }
 
     .cyber-dino-banner .cyber-small {
@@ -519,8 +518,8 @@ h1 {
         z-index: -1;
 
         position: absolute;
-        top: 10%;
-        left: 20%;
+        top: 40%;
+        left: 40%;
     }
 
     .pat-02 {
@@ -536,11 +535,12 @@ h1 {
         opacity: 30%;
         font-size: 30px;
         line-height: 42px;
+        padding-top: 2%;
     }
 
     .pat-creative {
         color: #FFE49D;
-        top: 75%;
+        top: 80%;
         left: 7%;
         opacity: 70%;
         font-size: 30px;
@@ -548,7 +548,7 @@ h1 {
     }
 
     .list-services {
-        margin-top: 40%;
+        margin-top: 25%;
         margin-bottom: 40%;
         width: 100%;
         /* max-width: 740px;
@@ -561,7 +561,7 @@ h1 {
     .services-col {
         display: flex;
         justify-content: center;
-
+        padding-top: 10%;
     }
 
     /* .services-col:nth-child(2n+1) {
@@ -601,7 +601,7 @@ h1 {
     .features-description {
         width: 100%;
         text-align: center;
-        padding: 15%;
+        padding: 5% 15%;
     }
 
     .features-description p {
@@ -611,14 +611,16 @@ h1 {
     }
 
     .fea-deco {
-        top: 70%;
-        left: 30%;
+        top: 0%;
+        left: 26%;
     }
 
     .contact-description p {
         font-size: 16px;
         line-height: 24px;
     }
+}
 
-
+.white {
+    color: white;
 }
